@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it Dane.
+// We create a conditional statement that checks if 'name' is equal to 'Mary'
+// Since 'Dane' is not equal to 'Mary' the condition is false
+// We console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'secret' The value is undefined
+// Another variable is created called 'code' and the value is '123'
+// We make a conditional statement that checks if the variable 'code' equals the value '123'
+// This is considered true
+// The variable 'secret' is assigned to the value 'super'
+// The value of code is multiplied by 2, which equals 246
+// This other if statement checks if the value of 'code' is greater than 250
+// This is considered false, so the the variable 'secret' is not changed to 'duper'
+// Lastly we console log the variable 'secret' which will have a value of 'super' 
 
 //CODE
 /*
@@ -70,10 +75,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable 'isStudent' with the boolean value of 'true'
+// We create the variable 'age' and set the value to '34' 
+// We create the variable 'zip' and set the value to '55407'
+// We create a compound conditional that checks if the variable 'isStudent' is 'true' and if the variable 'zip' is greater than the value '8000'
+// The condition is false since 'zip' is less than 8000, so the code will not run and we move to the else if statement
+// The else if statement checks if the variable 'isStudent' is false or if the variable 'age' is less than 30
+// Both of these are false, so the code wiil not run and we move to the second else if statement.
+// The second else if statement created checks if the variable 'isStudent' is equal to true.
+// The statement is true, so the console will read "Welcome to Prime!"
+// The else block created would run if all other if statements above were incorrect.
 
 //CODE
 /*
@@ -130,10 +141,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - value-- assigns colorOne to red and colorTwo to blue and it should be opposite. 
+// letcolorOne = 'blue';
+// letcolorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// FIX - colorTwo should be set to purple as well like the instructions state.
+// colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +161,10 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - instruction says 'and' so both must be true in order for code to execute
+// Should be if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +177,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+// FIX - instructions state to check if age is greater than not less than. It is equal so we log 'enter' 
+// Should be 
+if(minAge >= age) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
